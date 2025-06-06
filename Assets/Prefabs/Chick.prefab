@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chick: {fileID: 6577967727533968837}
-  hen: {fileID: 3996245989110452644, guid: 71220adb8fa7bfb4393c003fb95b3477, type: 3}
+  hen: {fileID: 147800124603220381, guid: 71220adb8fa7bfb4393c003fb95b3477, type: 3}
   rooster: {fileID: 5012933532199452072, guid: bf56ee7abd6c9af4dbb86056e692eff9, type: 3}
   time: 3
 --- !u!114 &-8741083983409110439
@@ -149,7 +149,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6577967727533968837}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 10
   m_Drag: 2
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
