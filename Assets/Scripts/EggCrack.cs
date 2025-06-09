@@ -5,7 +5,7 @@ using UnityEngine;
 public class EggCrack : MonoBehaviour
 {
     public GameObject Egg, Chick;
-    public float time = 3f;
+    public float time = 10f;
 
     void Start()
     {

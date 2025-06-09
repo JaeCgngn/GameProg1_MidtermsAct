@@ -6,7 +6,7 @@ public class chickGrow : MonoBehaviour
 {
     public GameObject chick, hen, rooster;
 
-    public float time = 3f;
+    public float time = 10f;
     public static bool firstGrow = true;
 
     void Start()

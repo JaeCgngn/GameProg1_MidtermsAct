@@ -4,9 +4,10 @@ using UnityEngine;
 public class spawnEgg : MonoBehaviour
 {
     public GameObject Egg, Hen;
-    public int minEgg = 1;
+    public int minEgg = 2;
     public int maxEgg = 10;
-    public float time = 3f;
+    public float time = 30f;
+    public float eggHeight = 3f;
 
     void Start()
     {
@@ -21,8 +22,9 @@ public class spawnEgg : MonoBehaviour
 
         for (int i = 0; i < eggNumber; i++)
         {
-            Instantiate(Egg, spawnUp, Quaternion.identity);
-            
+            Vector3 stack = spawnUp + Vector3.up * (i * eggHeight);
+            Instantiate(Egg, stack, Quaternion.identity);
+
         }
     }
 }

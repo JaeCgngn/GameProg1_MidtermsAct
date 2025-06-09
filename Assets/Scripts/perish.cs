@@ -4,7 +4,7 @@ using UnityEngine;
 public class perish : MonoBehaviour
 {
     public GameObject Rooster, Hen;
-    public float time = 5f;
+    public float time = 40f;
 
     void Start()
     {
