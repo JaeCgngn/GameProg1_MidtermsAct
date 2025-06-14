@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5392e834e03b6c84c9baef0b6caa2c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Egg: {fileID: 2563003349071684282, guid: c8d90b05033408c41aad3ce7de371c5b, type: 3}
+  Egg: {fileID: 4101905358298976042, guid: d5ce3a436e188594ab53544b387fbe61, type: 3}
   Hen: {fileID: 2143933291230758690}
   minEgg: 2
   maxEgg: 10
